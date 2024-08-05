@@ -10,6 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @ComponentScan(basePackages = "com.example.Trip_In_Jeju")
 public class TripInJejuApplication {
 
+	//시작 구동
 	public static void main(String[] args) {
 		SpringApplication.run(TripInJejuApplication.class, args);
 	}
